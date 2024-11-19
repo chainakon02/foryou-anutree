@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Rounded:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+  <title>Film</title>
+</head>
+<body>
+
+
+  <div class="password-container">
+
+    <div id="countdown"></div>
+
+    <p class="text1">Anutree</p>
+    <input class="inputpass" type="password" id="password-input" placeholder="รหัสผ่าน">
+    <button  id="submit-password">ยืนยัน</button>
+    <p id="error-message" style="color: red; display: none;">รหัสผ่านไม่ถูกต้อง!</p>
+  </div>
+
+
+  <div class="container" style="display: none;">
+    <div class="textcon ">
+      <span class="entry"></span>
+      
+    </div>
+    <div class="content">
+      <div class="top-bar">
+        <span class="material-symbols-rounded">expand_more</span>
+        <span>สำหรับหมาแวนน</span>
+        <span class="material-symbols-rounded">more_horiz</span>
+      </div>
+      <div class="image-wrapper">
+        <div class="music-image">
+          <img src="images/img2.jpg">
+        </div>
+      </div>
+      <div class="music-titles">
+        <p class="name">6 Shots - NEFFEX</p>
+        <p class="artist">NEFFEX</p>
+      </div>
+      <div class="progress-details">
+        <div class="progress-bar">
+          <span></span>
+        </div>
+        <div class="time">
+          <span class="current">0:00</span>
+          <span class="final">5:30</span>
+        </div>
+      </div>
+      <div class="control-btn">
+        <span class="material-symbols-rounded" id="prev">skip_previous</span>
+        <div class="play-pause">
+          <span class="material-symbols-rounded">play_arrow</span>
+        </div>
+        <span class="material-symbols-rounded" id="next">skip_next</span>
+      </div>
+
+
+    </div>
+    <div class="hearts-container"></div>
+
+
+    <div class="page-hero">
+      <p>มี 2เพลงนะงับบ</p>
+    </div>
+
+<div class="contect1">
+  <div class="additional-content" id="additional-content" style="display: none;">
+</div>
+   
+
+   
+  </div>
+
+
+
+  <audio src="music/music1.mp3" class="main-song"></audio>
+
+  <script src="js/playlist.js"></script>
+  <script src="js/script.js"></script>
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/typed.js/1.1.7/typed.min.js'></script>
+  <script src="js/text.js"></script>
+  <script src="js/hearts.js"></script>
+  <script src="js/play.js"></script>
+  <script src="js/playscoll.js"></script>
+  <script src="js/contect.js"></script>
+  <script src="js/password.js"></script>
+  <script src="js/fadeIn.js"></script>
+  <script src="js/num.js"></script>
+</body>
+</html>

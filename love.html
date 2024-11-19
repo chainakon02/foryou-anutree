@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Valentine's Card</title>
+    <link rel="stylesheet" href="./love.css">
+</head>
+<body>
+  <div class="container">  
+    <div class="valentines">
+      <div class="envelope"></div>
+      <div class="front"></div>
+      <div class="card">
+        <div class="text">รู้ไหมเรารู้จักกัน<br><br>257 วัน</div>
+        <div class="heart"></div>
+      </div>
+      <div class="hearts">
+        <div class="one"></div>
+        <div class="two"></div>
+        <div class="three"></div>
+        <div class="four"></div>
+        <div class="five"></div>
+      </div>
+    </div>
+    <div class="shadow"></div>
+  </div>
+
+  <script>
+    document.addEventListener('DOMContentLoaded', function () {
+      const container = document.querySelector('.container');
+      const card = document.querySelector('.card');
+      const textElement = document.querySelector('.text');
+
+      const startDate = new Date('2024-03-08'); 
+      const currentDate = new Date();
+  
+
+      const diffTime = Math.abs(currentDate - startDate);
+      const diffDays = Math.ceil(diffTime / (1000 * 60 * 60 * 24));
+
+      textElement.innerHTML = `รู้ไหมเรารู้จักกัน<br><br>${diffDays} วันแล้ว`;
+  
+  
+      container.addEventListener('mouseenter', function () {
+        card.style.transition = 'top 0.6s';
+        card.style.top = '-90px';
+      });
+  
+      container.addEventListener('mouseleave', function () {
+        card.style.transition = 'top 0.6s';
+        card.style.top = '5px';
+      });
+    });
+  </script>
+  
+</body>
+</html>
