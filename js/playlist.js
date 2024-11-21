@@ -1,8 +1,8 @@
 let songs = [
   {
-    name: "ฝันอีกครึ่งต้องพึ่งเธอ ",
+    name: "ที่พึ่งคนไกล ",
     artist: "มนต์แคน แก่นคูน",
-    img: "img1",
+    img: "img4",
     audio: "music1"
   },
   {
