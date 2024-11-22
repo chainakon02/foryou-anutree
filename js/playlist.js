@@ -2,7 +2,7 @@ let songs = [
   {
     name: "ที่พึ่งคนไกล ",
     artist: "มนต์แคน แก่นคูน",
-    img: "img4",
+    img: "111",
     audio: "music1"
   },
   {
