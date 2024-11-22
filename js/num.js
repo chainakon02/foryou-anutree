@@ -1,4 +1,4 @@
-// คำนวณค่าเริ่มต้นและค่าเป้าหมายตามวันที่
+
 const today = new Date();
 const day = today.getDate();
 const month = today.getMonth(); // เดือนนับจาก 0
