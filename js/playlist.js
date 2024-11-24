@@ -1,7 +1,7 @@
 let songs = [
   {
-    name: "เธอคือกาแฟในตอนเช้า ",
-    artist: "No One Else",
+    name: "ระยะปลอดภัย ",
+    artist: "Wan Thanakrit",
     img: "111",
     audio: "music1"
   },
