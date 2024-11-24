@@ -2,7 +2,7 @@ let songs = [
   {
     name: "ระยะปลอดภัย ",
     artist: "Wan Thanakrit",
-    img: "111",
+    img: "22",
     audio: "music1"
   },
   {
