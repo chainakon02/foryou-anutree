@@ -1,8 +1,8 @@
 let songs = [
   {
-    name: "ระยะปลอดภัย ",
-    artist: "Wan Thanakrit",
-    img: "25",
+    name: "ใจเดียว ",
+    artist: "Whal & Dolph ",
+    img: "img33",
     audio: "music1"
   },
   {
