@@ -1,8 +1,8 @@
 let songs = [
   {
-    name: "ใจเดียว ",
-    artist: "Whal & Dolph ",
-    img: "img33",
+    name: "นี่ฉันเองคนที่... (It's me) ",
+    artist: "PURPEECH ",
+    img: "img12",
     audio: "music1"
   },
   {
