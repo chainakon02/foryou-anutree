@@ -430,3 +430,21 @@ body {
   text-align: center;
   margin-top: 50px;
 }
+
+
+
+
+.profile-container {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  margin-bottom: 20px;
+}
+
+.profile-pic {
+  width: 150px; /* ปรับขนาดตามต้องการ */
+  height: 150px; /* ปรับขนาดตามต้องการ */
+  border-radius: 50%; /* ทำให้เป็นวงกลม */
+  object-fit: cover; /* ปรับภาพให้พอดี */
+  margin-bottom: 10px;
+}
