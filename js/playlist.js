@@ -1,7 +1,7 @@
 let songs = [
   {
-    name: "นี่ฉันเองคนที่... (It's me) ",
-    artist: "PURPEECH ",
+    name: "ถ้าตลอดกาลมีจริงขอให้มันเกิดกับรักครั้งนี้",
+    artist: "mintchyy x marr team",
     img: "img12",
     audio: "music1"
   },
