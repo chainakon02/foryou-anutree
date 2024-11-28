@@ -1,8 +1,8 @@
 let songs = [
   {
-    name: "ถ้าตลอดกาลมีจริงขอให้มันเกิดกับรักครั้งนี้",
-    artist: "mintchyy x marr team",
-    img: "img12",
+    name: " พบรัก",
+    artist: "INK WARUNTORN",
+    img: "img15",
     audio: "music1"
   },
   {
