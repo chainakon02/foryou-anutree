@@ -1,9 +1,9 @@
 let songs = [
   {
-    name: " พบรัก",
-    artist: "INK WARUNTORN",
-    img: "img15",
-    audio: "music1"
+    name: "ของขวัญ",
+    artist: "Musketeers",
+    img: "img14",
+    audio: "music3"
   },
   {
     name: "ครึ่งหัวใจ",
