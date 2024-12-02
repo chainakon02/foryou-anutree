@@ -13,8 +13,8 @@ let songs = [
   },
   {
     name: "JEEP",
-    artist: "Dyalla",
-    img: "img3",
+    artist: "WhatChaRaWaLee",
+    img: "25",
     audio: "music4"
   },
   // {
