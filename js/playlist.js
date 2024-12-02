@@ -3,7 +3,7 @@ let songs = [
     name: "การเปลี่ยนเเปลง",
     artist: "Boy Peacemaker",
     img: "img12",
-    audio: "music4"
+    audio: "music1"
   },
   {
     name: "ครึ่งหัวใจ",
