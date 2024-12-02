@@ -11,12 +11,12 @@ let songs = [
     img: "img2",
     audio: "music2"
   },
-  // {
-  //   name: "Slipping Away - Dyalla",
-  //   artist: "Dyalla",
-  //   img: "img3",
-  //   audio: "music3"
-  // },
+  {
+    name: "JEEP",
+    artist: "Dyalla",
+    img: "img3",
+    audio: "music4"
+  },
   // {
   //   name: "Desert Planet - Quincas",
   //   artist: "Quincas",
