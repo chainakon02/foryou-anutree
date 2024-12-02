@@ -13,13 +13,5 @@ document.addEventListener('DOMContentLoaded', function () {
   textElement.innerHTML = `รู้ไหมเรารู้จักกัน<br><br>${diffDays} วันแล้ว`;
 
 
-  container.addEventListener('mouseenter', function () {
-    card.style.transition = 'top 0.6s';
-    card.style.top = '-90px';
-  });
-
-  container.addEventListener('mouseleave', function () {
-    card.style.transition = 'top 0.6s';
-    card.style.top = '5px';
-  });
+  
 });
