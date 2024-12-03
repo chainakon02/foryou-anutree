@@ -1,9 +1,9 @@
 let songs = [
   {
-    name: "การเปลี่ยนเเปลง",
-    artist: "Boy Peacemaker",
+    name: "รักของเธอคือของขวัญ (Gift of life)",
+    artist: "WANYAi",
     img: "img12",
-    audio: "music1"
+    audio: "music5"
   },
   {
     name: "ครึ่งหัวใจ",
