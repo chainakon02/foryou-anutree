@@ -1,9 +1,9 @@
 let songs = [
   {
-    name: "รักของเธอคือของขวัญ (Gift of life)",
-    artist: "WANYAi",
+    name: "ต่อจากนี้เพลงรักทุกเพลงจะเป็นของเธอเท่านั้น",
+    artist: "No One Else",
     img: "img12",
-    audio: "music5"
+    audio: "music6"
   },
   {
     name: "ครึ่งหัวใจ",
@@ -17,10 +17,10 @@ let songs = [
     img: "25",
     audio: "music4"
   },
-  // {
-  //   name: "Desert Planet - Quincas",
-  //   artist: "Quincas",
-  //   img: "img4",
-  //   audio: "music4"
-  // }
+  {
+    name: "รักของเธอคือของขวัญ (Gift of life)",
+    artist: "WANYAi",
+    img: "111",
+    audio: "music5"
+  },
 ]
