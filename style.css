@@ -502,7 +502,7 @@ figure > div {
 a {
   color: #007BFF;
   font-family: 'Sriracha', cursive;
-  font-size: 28px;
+  font-size: 20px;
   text-align: center;
   line-height:25px;
   top:19px;
@@ -521,7 +521,7 @@ a:hover {
 }
 .textnext{
   font-family: 'Sriracha', cursive;
-  font-size: 28px;
+  font-size: 20px;
   text-align: center;
   line-height:25px;
   top:19px;
