@@ -17,7 +17,43 @@
 
     <div class="password-container">
 
-    <div id="countdown"></div>
+
+
+      <div class="rose-container">
+
+        <div class="glass">
+          <div class="shine"></div>
+        </div>
+        <div class="thorns">
+          <div></div>
+          <div></div>
+          <div></div>
+          <div></div>
+        </div>
+        <div class="leaves">
+          <div></div>
+          <div></div>
+          <div></div>
+          <div></div>
+        </div>
+        <div class="petals">
+          <div></div>
+          <div></div>
+          <div></div>
+          <div></div>
+          <div></div>
+          <div></div>
+          <div></div>
+        </div>
+
+      </div>
+      
+<div class="countdown">
+  <div id="countdown">
+    <p>Complete</p>
+  </div>
+</div>
+
 
     <div class="profile-container">
       <img src="images/img12.jpg" alt="Profile Picture" class="profile-pic" />
@@ -93,7 +129,18 @@
     </div>
     <div class="shadow"></div>
   </div>
-   
+
+  <div class="next">
+<div class="horizontal-container">
+  
+    <span class="textnext">มีอะไรให้ดูด้วยย</span> 
+  
+
+  <a href="Gallery.html">กดตรงนี้นะงับ</a>
+</div>
+
+  </div>
+  
 
    
   </div>
@@ -113,6 +160,14 @@
   <script src="js/contect3.js"></script>
   <script src="js/password.js"></script>
   <script src="js/fadeIn.js"></script>
-  <script src="js/num copy.js"></script>
+  
+  <script>
+    
+    setTimeout(function() {
+      const countdownText = document.querySelector('#countdown p');
+      countdownText.style.color = '#71122a'; 
+    }, 3000); // 3000ms = 3 วินาที
+  </script>
+
 </body>
 </html>
